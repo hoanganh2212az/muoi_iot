@@ -1,0 +1,150 @@
+.menu-data {
+  background: linear-gradient(109.6deg, rgb(173, 211, 209) 11.2%, rgb(111, 130, 172) 91.1%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container-data {
+  width: 90%;
+  max-width: 1200px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.search-khung {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-ip {
+  height: 35px;
+  width: 200px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
+
+.btn-exit {
+  height: 40px;
+  padding: 0 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-exit-search {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-exit-search:hover {
+  background-color: #0056b3;
+}
+
+.btn-exit-exit {
+  background-color: #ffc107;
+  color: black;
+}
+
+.btn-exit-exit:hover {
+  background-color: #e0a800;
+}
+
+.btn-exit-clear {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-exit-clear:hover {
+  background-color: #b02a37;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.btn-pagination {
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-prev, .btn-next {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-prev:hover, .btn-next:hover {
+  background-color: #0056b3;
+}
+
+.page-number {
+  background: white;
+  border: 1px solid #007bff;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.page-number:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.page-number.active {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}

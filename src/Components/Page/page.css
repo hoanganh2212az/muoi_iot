@@ -1,0 +1,83 @@
+.pagee {
+  width: 100%;
+  padding-top: 100px;
+  background: #ffffff;
+}
+
+.page-chucnang {
+  display: flex;
+  height: 200px;
+  width: 80%;
+  margin: auto;
+}
+
+.page-btn {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.page-bieudo {
+  width: 100%;
+  height: 700px;
+  background-color: #f2e9e8;
+  margin: 18px 10px;
+  border-radius: 20px;
+}
+
+.page-btn-chucnang {
+  width: 31.2%;
+  margin-right: 10px;
+}
+
+.page-btn-den,
+.page-btn-quat,
+.page-btn-dieu-hoa {
+  height: 230px;
+  background: radial-gradient(circle, #0026ff 20%, #f0f0f0 200%);
+  border-radius: 20px;
+  margin: 10px 10px;
+}
+
+.light-btn {
+  background-color: #95a5a6;
+  border: none;
+  border-radius: 50px;
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+  position: relative;
+}
+
+.light-icon {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  transition: left 0.3s, background-color 0.3s;
+}
+
+.light-btn.on {
+  background-color: #18ce27;
+}
+
+.light-btn.on .light-icon {
+  left: calc(100% - 35px);
+}
+
+.btn-icon {
+  padding-top: 1px;
+  text-align: center;
+  color: white;
+}
+
+.btn-icon-den {
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,46 @@
+.mybackground {
+  background: linear-gradient(92.5deg, rgb(173, 211, 209) 11.2%, rgb(111, 130, 172) 91.1%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.imgavt {
+  width: 150px;
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mythongtin {
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.icon {
+  font-size: 22px;
+  color: #333;
+}
+
+.mythongtin a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.mythongtin a:hover {
+  text-decoration: underline;
+}
