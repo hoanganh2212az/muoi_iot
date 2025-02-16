@@ -11,6 +11,8 @@
   );
   /* height: 130%; */
   width: 90.8%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Thêm drop-shadow giống dataSensor */
+
 }
 
 .green-row {
@@ -123,4 +125,61 @@
   border-color: #007bff;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
   outline: none;
+}
+
+.btn-exit-clear {
+  background-color: #dc3545;
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.btn-exit-clear:hover {
+  background-color: #b02a37;
+  transform: scale(1.05);
+}
+
+/* Phân trang */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn-pagination {
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-prev, .btn-next {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-prev:hover, .btn-next:hover {
+  background-color: #0056b3;
+}
+
+.page-number {
+  background: white;
+  border: 1px solid #007bff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.page-number.active {
+  background-color: #007bff;
+  color: white;
 }

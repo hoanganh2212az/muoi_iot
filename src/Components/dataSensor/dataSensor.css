@@ -3,18 +3,18 @@
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 20px;
 }
 
 .container-data {
   width: 90%;
   max-width: 1200px;
-  background: rgba(255, 255, 255, 0.95);
+  background: white;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
+  margin: auto;
 }
 
 h1 {
@@ -104,11 +104,53 @@ tr:hover {
   background-color: #f1f1f1;
 }
 
+/* Chọn số hàng mỗi trang */
+.rows-per-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.rows-per-page label {
+  font-weight: bold;
+}
+
+.rows-per-page-select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.rows-per-page-select:hover {
+  border-color: #007bff;
+}
+
+.rows-per-page-select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  outline: none;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+/* Phân trang */
 .pagination {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   margin-top: 20px;
 }
 
@@ -133,18 +175,13 @@ tr:hover {
 .page-number {
   background: white;
   border: 1px solid #007bff;
-  padding: 8px;
+  padding: 8px 12px;
   border-radius: 5px;
   cursor: pointer;
-}
-
-.page-number:hover {
-  background-color: #007bff;
-  color: white;
+  font-weight: bold;
 }
 
 .page-number.active {
   background-color: #007bff;
   color: white;
-  font-weight: bold;
 }

@@ -30,15 +30,6 @@
   margin-right: 10px;
 }
 
-.page-btn-den,
-.page-btn-quat,
-.page-btn-dieu-hoa {
-  height: 230px;
-  background: radial-gradient(circle, #0026ff 20%, #f0f0f0 200%);
-  border-radius: 20px;
-  margin: 10px 10px;
-}
-
 .light-btn {
   background-color: #95a5a6;
   border: none;
