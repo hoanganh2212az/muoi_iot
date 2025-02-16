@@ -19,12 +19,13 @@ const Light = (props) => {
   let lightClass = getLightClass(light);
 
   return (
-    <div className={`weather-box ${lightClass}`}>
-      <div className="weather-info" style={{ color: 'white' }} >
-        <div className='weather-icon'><WiHorizonAlt /></div>
-        <div className='thongtinnhietdo'>{light} lux</div>
-      </div>
-    </div>
+<div className={`weather-box ${lightClass}`}>
+  <div className="weather-group" style={{ color: 'white' }}>
+    <div className='weather-icon'><WiHorizonAlt /></div>
+    <div className='weather-info'>{light} lux</div>
+  </div>
+</div>
+
   );
 }
 
